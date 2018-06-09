@@ -1,0 +1,44 @@
+body, html
+{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+hr {
+    max-width: 65px;
+    border-width: 3px;
+    border-color: rgb(139, 7, 7);
+    margin-top: 250px;
+    margin-bottom: 30px;
+}
+
+.faded {
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+    background-position: center;
+    background-image: url(header.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.btn {
+    text-transform: uppercase;
+    border-radius: 300px;
+}
+
+.btn-primary {
+    background-color: rgb(23, 64, 248);
+}
+
+.btn-primary:hover {
+    background-color: royalblue;
+    border-color: royalblue;
+    border-width: 5px;
+    cursor: pointer;
+}
